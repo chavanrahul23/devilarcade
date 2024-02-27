@@ -1,0 +1,307 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #252A34;
+    /* color: black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+    color: #08D9D6;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.register {
+    display: flex;
+    justify-content: space-between; /* Separate the buttons */
+}
+
+.register a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #FF2E63; 
+    border-radius: 8px;
+}
+
+.register a.signup {
+    margin-right: 10px; /* Add margin between buttons */
+}
+
+
+.video-container {
+    width: 100%;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+}
+.text-box{
+    position: absolute;
+    top: 220px;
+    left: 15px;
+    font-size: 40px;
+    color: aliceblue;
+}
+.learn{
+    position: absolute;
+    top: 520px;
+    left: 15px;
+    border: 1px blue solid;
+    display: flex;
+    
+}
+input{
+    background-color: black;
+    color: white;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.long{
+    min-height: 300vh;
+    width: 100%;
+    margin: 0;
+    top: 0;
+    background-image: url(./download.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box1{
+    height: 100vh;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.innerboxone1{
+     /* background-image: url(./game.jpg); */
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    width: 40%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./devil.jpg);
+    /* opacity: 0.7; */
+    /* margin: 15px; */
+    border-radius: 10px;
+}
+.innerboxone2 {
+    height: 75vh;
+    width: 30%;
+    background-image: url(./Iphone\ Wallpapers.jpg);
+    background-size: cover;
+    background-position: center;
+    color: black;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 20px; /* Add padding to the content inside */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    overflow: hidden; /* Hide overflow content */
+}
+
+.innerboxone2 p {
+    margin: 0; /* Remove default margin for paragraphs */
+}
+
+.box2{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #FF2E63; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerboxtwo1{
+    height: 80vh;
+    width: 40%;
+    background-color: white;
+    border-radius: 10px;
+}
+.innerboxtwo2{
+    height: 80vh;
+    width: 40%;
+    /* background-color: black; */
+    background-image: url(./MXGP\ 2_\ The\ Official\ Motocross\ Video\ Game\ [Xbox\ One].jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.purchase{
+    height: 100%;
+    width: 100%;
+    background-image: url(./FREESTYLIN_FINAL_LANDSCAPE_1920X1080_JPG-9928423d535d3d18f841.jpg);
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+}
+.purchase label{
+    color: black;
+    font-size: 20px;
+}
+.purchase select {
+    width: 380px;
+    height: 45px;
+    font-size: 20px;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+.purchase button{
+    width: 380px;
+    height: 45px;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: brown;
+}
+
+.box3{
+    height: 110vh;
+    width: 100%;
+    background-color: blue;
+    margin-top: 50px;
+}
+.innerboxthree1
+{
+    height: 70vh;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    background-image: url(./SummerBreak_HiRez_FINAL_1920x1080-0ee95780509dd28ca610.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.innerboxthree1 h1{
+    font-size: 80px;
+}
+.innerboxthree1 button{
+    background-color: whitesmoke;
+    height: 40px;
+    font-size: 20px;
+    width: 270px;
+    border-radius: 10px;
+}
+.innerboxthree2
+{
+    height: 40vh;
+    width: 100%;
+    background-color: white;
+    
+}
+.apple{
+    height: 15vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.apple button{
+    background-color: whitesmoke;
+    height: 40px;
+    font-size: 20px;
+    width: 270px;
+    border-radius: 10px;
+}
+.fa-globe{
+    color: #FF2E63;
+    font-size: 40px;
+}
+.language{
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.lang{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.mango{
+    height: 25vh;
+    width: 100%;
+    background-color: #FF2E63;
+    display: flex;
+    flex-direction: row;
+    color: antiquewhite;
+}
+
+.PRIVACY{
+    height: 100%;
+    width: 25%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.PRIVACY a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.company{
+    height: 100%;
+    width: 25%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.company a{
+    color: antiquewhite;
+    text-decoration: none;
+    
+}
+.help{
+    height: 100%;
+    width: 25%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.help a{
+    color: antiquewhite;
+    text-decoration: none;
+    
+}
+.social{
+    height: 100%;
+    width: 25%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
